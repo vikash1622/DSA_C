@@ -21,5 +21,34 @@ int main()
         last--;
     }
 
+
+
+    // ANONTHER WAY -----------
+
+
+
+     int arr [6]={1,2,3,4,5,6};
+    int length=6;
+    int start =0;
+    int last =length-1;
+
+    while (true)
+    {
+       if (start>last)
+       {
+        break;
+       }
+       else{
+            cout<<arr[start]<<endl;
+            cout<<arr[last]<<endl;
+            start++;
+            last--;
+       }
+       
+    }
+
+
+
     return 0;
 }
+
